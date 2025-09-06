@@ -1,0 +1,13 @@
+numpy>=1.24
+pillow>=10.0
+matplotlib>=3.8
+torch>=2.1.0
+transformers>=4.44
+timm>=0.9.12
+huggingface-hub>=0.24.0
+safetensors>=0.4.2
+
+diffusers>=0.28.0
+accelerate>=0.33.0
+
+scipy>=1.11.4
