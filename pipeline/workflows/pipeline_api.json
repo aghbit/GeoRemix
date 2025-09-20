@@ -1,7 +1,7 @@
 {
   "1": {
     "inputs": {
-      "ckpt_name": "Juggernaut-X-RunDiffusion-NSFW.safetensors"
+      "ckpt_name": "RealVisXL_V5.0_fp32.safetensors"
     },
     "class_type": "CheckpointLoaderSimple",
     "_meta": {
@@ -10,7 +10,7 @@
   },
   "2": {
     "inputs": {
-      "text": "cyberpunk night city, pitch-black sky; dense neon + holograms; rain-slick reflections, mist, bloom, volumetric beams, bokeh;  photoreal, high-contrast.",
+      "text": "cyberpunk night city, pitch-black sky; dense neon + holograms; rain-slick reflections, bloom, volumetric beams, 4K, 8K, UHD, photoreal, high-contrast.",
       "clip": [
         "1",
         1
@@ -23,7 +23,7 @@
   },
   "3": {
     "inputs": {
-      "text": "blur/low-res/artifacts, oversaturation, cartoon/3D-render look, duplicates, floating objects",
+      "text": "blur/low-res/artifacts, oversaturation, cartoon/3D-render look, duplicates, floating objects, new objects",
       "clip": [
         "1",
         1
@@ -38,12 +38,12 @@
     "inputs": {
       "seed": 691033582574281,
       "steps": 25,
-      "cfg": 6.9,
+      "cfg": 6.5,
       "sampler_name": "dpmpp_2m_sde",
       "scheduler": "sgm_uniform",
-      "denoise": 0.7,
+      "denoise": 0.66,
       "model": [
-        "1",
+        "23",
         0
       ],
       "positive": [
@@ -68,7 +68,7 @@
     "inputs": {
       "width": 2048,
       "height": 1024,
-      "batch_size": 1
+      "batch_size": 30
     },
     "class_type": "EmptyLatentImage",
     "_meta": {
@@ -82,8 +82,8 @@
         0
       ],
       "vae": [
-        "1",
-        2
+        "24",
+        0
       ]
     },
     "class_type": "VAEDecode",
@@ -111,7 +111,7 @@
       "resolution": 2048,
       "preprocessor_override": "None",
       "image": [
-        "11",
+        "48",
         0
       ]
     },
@@ -120,32 +120,11 @@
       "title": "ControlNet Preprocessor"
     }
   },
-  "11": {
-    "inputs": {
-      "image": "164095525622425.jpg"
-    },
-    "class_type": "LoadImage",
-    "_meta": {
-      "title": "Load Image"
-    }
-  },
-  "12": {
-    "inputs": {
-      "images": [
-        "10",
-        0
-      ]
-    },
-    "class_type": "PreviewImage",
-    "_meta": {
-      "title": "Preview Image"
-    }
-  },
   "14": {
     "inputs": {
       "switch_1": "On",
       "controlnet_1": "diffusion_pytorch_model_promax.safetensors",
-      "controlnet_strength_1": 0.95,
+      "controlnet_strength_1": 0.75,
       "start_percent_1": 0,
       "end_percent_1": 1,
       "switch_2": "On",
@@ -201,38 +180,26 @@
     "inputs": {
       "preprocessor": "seg_ofade20k",
       "sd_version": "sdxl",
-      "resolution": 1024,
+      "resolution": 2048,
       "preprocessor_override": "None",
       "image": [
-        "11",
+        "48",
         0
       ]
     },
     "class_type": "AV_ControlNetPreprocessor",
     "_meta": {
       "title": "ControlNet Preprocessor"
-    }
-  },
-  "17": {
-    "inputs": {
-      "images": [
-        "16",
-        0
-      ]
-    },
-    "class_type": "PreviewImage",
-    "_meta": {
-      "title": "Preview Image"
     }
   },
   "18": {
     "inputs": {
-      "preprocessor": "normalmap_bae",
+      "preprocessor": "normalmap_dsine",
       "sd_version": "sdxl",
-      "resolution": 1024,
+      "resolution": 1280,
       "preprocessor_override": "None",
       "image": [
-        "11",
+        "48",
         0
       ]
     },
@@ -241,16 +208,109 @@
       "title": "ControlNet Preprocessor"
     }
   },
-  "19": {
+  "23": {
     "inputs": {
-      "images": [
-        "18",
+      "tiling": "x_only",
+      "copy_model": "Modify in place",
+      "model": [
+        "1",
         0
       ]
     },
-    "class_type": "PreviewImage",
+    "class_type": "SeamlessTile",
     "_meta": {
-      "title": "Preview Image"
+      "title": "Seamless Tile"
+    }
+  },
+  "24": {
+    "inputs": {
+      "tiling": "x_only",
+      "copy_vae": "Modify in place",
+      "vae": [
+        "1",
+        2
+      ]
+    },
+    "class_type": "MakeCircularVAE",
+    "_meta": {
+      "title": "Make Circular VAE"
+    }
+  },
+  "38": {
+    "inputs": {
+      "threshold": 0,
+      "limit": 30,
+      "model": [
+        "39",
+        0
+      ],
+      "inputs": [
+        "40",
+        0
+      ],
+      "images": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "ZuellniPickScoreSelector",
+    "_meta": {
+      "title": "Selector"
+    }
+  },
+  "39": {
+    "inputs": {
+      "path": "yuvalkirstain/PickScore_v1"
+    },
+    "class_type": "ZuellniPickScoreLoader",
+    "_meta": {
+      "title": "Loader"
+    }
+  },
+  "40": {
+    "inputs": {
+      "text": "",
+      "model": [
+        "39",
+        0
+      ],
+      "images": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "ZuellniPickScoreProcessor",
+    "_meta": {
+      "title": "Processor"
+    }
+  },
+  "43": {
+    "inputs": {
+      "root_dir": "temp",
+      "file": "scores.txt",
+      "append": "append",
+      "insert": true,
+      "text": [
+        "38",
+        0
+      ]
+    },
+    "class_type": "SaveText|pysssss",
+    "_meta": {
+      "title": "Save Text 🐍"
+    }
+  },
+  "48": {
+    "inputs": {
+      "directory": "/home/kn-bit/programow/nvidia-geo-guessing/backend/images",
+      "image_load_cap": 20,
+      "start_index": 0,
+      "load_always": true,
+      "sort_method": "None"
+    },
+    "class_type": "LoadImagesFromDir //Inspire",
+    "_meta": {
+      "title": "Load Image Batch From Dir (Inspire)"
     }
   }
 }

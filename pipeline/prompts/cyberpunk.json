@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "cyberpunk night city, pitch-black sky; dense neon + holograms; rain-slick reflections, bloom, volumetric beams, 4K, 8K, UHD, photoreal, high-contrast.",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3D-render look, duplicates, floating objects, new objects",
+    "verification_prompt": "cyberpunk style, game like image, high quality, sharp, no artifacts, no floating objects"
+}
