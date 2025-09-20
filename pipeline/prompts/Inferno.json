@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Inferno fortress, volcanic wasteland; rivers of lava, jagged obsidian spires, demonic towers glowing red; smoke, ash clouds, firelight haze, molten glow, ominous sky; dark fantasy, high-detail, dramatic",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "inferno style, Inferno fortress, volcanic wasteland, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

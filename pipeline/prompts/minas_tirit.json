@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Minas Tirith style city panorama, towering white stone walls, tiered citadel rising from mountainside; knights, banners, winding streets; golden sunlight, dramatic sky, epic cinematic atmosphere; photoreal, high-detail, majestic",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "minastirit style, Minas Tirith style city panorama, towering white stone walls, tiered citadel rising from mountainside, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

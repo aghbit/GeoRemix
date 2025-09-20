@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "tropical beach panorama, golden sand; palm trees, seashells, people in swim suits, wooden huts; warm sunlight, glowing horizon, soft breeze, cinematic glow; vibrant, photoreal, high-detail, relaxing atmosphere",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "beach style, tropical beach panorama, golden sand, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "medieval castle panorama, towering stone walls; turrets + battlements, wooden drawbridge, torchlight glow; dark forest, moody sky; cinematic atmosphere, photoreal, high-detail",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "zamek style, medieval castle panorama, towering stone walls, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

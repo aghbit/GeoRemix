@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "steampunk Arcane-style city panorama, towering brass gears and pipes; glowing lanterns, mechanical towers, smokestacks, cobblestone streets; misty atmosphere, warm cinematic light, detailed textures; stylized, high-detail, photoreal, dramatic",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "steampunk style, steampunk Arcane-style city panorama, towering brass gears and pipes, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

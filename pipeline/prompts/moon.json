@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "lunar space station, vast moon panorama; silver regolith, cratered horizon, Earthrise view; futuristic domes + modules, glowing panels, antennas; cold light, cinematic sci-fi atmosphere; photoreal, high-contrast",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "księżyc style, lunar space station, vast moon panorama, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

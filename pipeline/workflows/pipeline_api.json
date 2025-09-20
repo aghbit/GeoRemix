@@ -306,7 +306,7 @@
       "image_load_cap": 20,
       "start_index": 0,
       "load_always": true,
-      "sort_method": "None"
+      "sort_method": "Alphabetical (ASC)"
     },
     "class_type": "LoadImagesFromDir //Inspire",
     "_meta": {

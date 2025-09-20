@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Valorant style panorama, vibrant tactical cityscape; sleek angular buildings, colorful murals, glowing highlights, warm pastel tones; clear skies, cinematic sunlight, stylized sharp textures; bright, high-detail, vivid, game-art",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "valorant style, Valorant style panorama, vibrant tactical cityscape, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

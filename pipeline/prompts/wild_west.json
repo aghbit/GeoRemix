@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "wild west frontier town, dusty street, wooden saloons, sun-scorched desert; sepia tones, cinematic western style, cactuses, tumbleweed, golden hour light; photoreal, high detail.",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "wild_west style, wild west frontier town, dusty street, wooden saloons, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

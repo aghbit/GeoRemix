@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "League of Legends style panorama, fantasy cityscape; towering castles, mystical forests, glowing crystals, ornate architecture; vibrant skies, magical light beams, epic fantasy mood; stylized, high-detail, cinematic, colorful",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "lol style, League of Legends style panorama, fantasy cityscape, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

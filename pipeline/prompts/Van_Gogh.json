@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Van Gogh Starry Night style, swirling night sky; vivid brushstrokes, bold contrasts, textured oil paint; glowing stars, crescent moon, dreamy impressionist mood; painterly, vibrant, high-detail",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "van_gogh style, Van Gogh Starry Night style, swirling night sky, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

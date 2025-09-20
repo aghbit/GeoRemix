@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "children's anime city panorama, bright colorful streets; cozy houses, blooming gardens, playful characters, smiling animals; warm sunlight, soft shadows, gentle clouds, cheerful atmosphere; stylized, vibrant, high-detail, inviting",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "anime style, children's anime city panorama, bright colorful streets, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "horror cityscape panorama, abandoned streets and buildings; foggy alleys, broken windows, twisted trees, dim lanterns; eerie shadows, ominous sky, dripping mist, cinematic atmosphere; photoreal, high-contrast, unsettling",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "horror style, horror cityscape panorama, abandoned streets and buildings, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

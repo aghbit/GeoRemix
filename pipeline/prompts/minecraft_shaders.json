@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Minecraft panorama with shaders, blocky voxel world; lush forests, rivers, mountains, glowing sunlight, reflective water; realistic shadows, bloom, god rays, vibrant colors, cinematic lighting; stylized, high-detail, photoreal touch.",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "minecraft_shaders style, Minecraft panorama with shaders, blocky voxel world, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

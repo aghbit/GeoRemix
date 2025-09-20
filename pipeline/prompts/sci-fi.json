@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "utopian sci-fi city, sleek white + silver towers, glass domes, floating gardens, clean streets; elegant humanoid robots, soft sunlight, blue sky, gentle glow, reflective surfaces; futuristic, cinematic, photoreal, high-detail",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "sci-fi_utopia style, utopian sci-fi city, sleek white + silver towers, glass domes, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Atlantis underwater city, vast ocean floor; ruined temples + marble statues, coral-encrusted arches, glowing bioluminescence; schools of fish, rays of light through water, drifting mist; cinematic, photoreal, high-detail",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "atlantyda style, Atlantis underwater city, vast ocean floor, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Minecraft landscape panorama, blocky terrain; pixelated forests, mountains, rivers, and villages; voxel-style characters, torches, wooden structures; bright daylight, clear sky, vibrant colors, playful, stylized, high-detail",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "minecraft style, Minecraft landscape panorama, blocky terrain, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

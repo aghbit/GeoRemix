@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "post-apocalyptic city panorama, collapsed buildings, crumbling walls, shattered windows, cracked streets, burned vehicles; overgrown vegetation, debris, abandoned urban wasteland; smoky sky, muted colors, cinematic decay, photoreal, high-detail, no humans",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "postapo style, post-apocalyptic city panorama, collapsed buildings, crumbling walls, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

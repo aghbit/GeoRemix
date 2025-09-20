@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "Siberian winter panorama, endless snow fields; frozen city skyline, frosted rooftops, icy streets; pale blue sky, crisp cold light, sharp contrast, serene clarity, breath in air; photoreal, snowmen, high-detail",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "syberia style, Siberian winter panorama, endless snow fields, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}

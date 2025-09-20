@@ -1,0 +1,5 @@
+{
+    "positive_prompt": "ancient Egypt, vast desert panorama; golden dunes + Nile oasis; pyramids, grand temples, sandstone statues, hieroglyphs; sunlit haze, cinematic glow, warm tones; photoreal, high-detail",
+    "negative_prompt": "blur/low-res/artifacts, oversaturation, cartoon/3d-render look, duplicates, floating objects",
+    "verification_prompt": "egipt style, ancient Egypt, vast desert panorama, sharp, photoreal, no blur, no oversaturation, no duplicates, no floating objects"
+}
