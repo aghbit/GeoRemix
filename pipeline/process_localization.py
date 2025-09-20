@@ -72,7 +72,7 @@ def localization_workflow(workflow_path, pictures_dir, prompts_text_dir):
         new_dest = os.path.join(DEFAULT_COPY_DEST, base_name)
         os.makedirs(new_dest, exist_ok=True)
         copy_pattern = f"{line_number}batch"
-        copy_images_with_pattern(DEFAULT_OUTPUTS_PATH, new_dest, copy_pattern)
+        copy_images_with_pattern(DEFAULT_OUTPUTS_PATH, new_dest, pictures_dir, copy_pattern)
 
 
 if __name__ == "__main__":

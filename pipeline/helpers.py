@@ -34,11 +34,9 @@ def find_line_with_max_avg(file_path: str):
                 except ValueError:
                     print(f"Warning: could not parse float from '{p}' in line {idx} of {file_path}")
                     pass
-            print(nums)
             if not nums:
                 continue
             avg = sum(nums) / len(nums)
-            print(f"Line {idx} average: {avg}")
             if avg > best_avg or avg > best_avg * 0.98 and nums[-1] > best_worst or avg > best_avg * 0.98 and nums[-1] > best_worst * 0.999 and nums[0] > best_best:
                 best_avg = avg
                 best_line_no = idx
