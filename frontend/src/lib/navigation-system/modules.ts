@@ -11,6 +11,7 @@ import { NavigationLoadingPage } from "@/pages/navigation-loading-page";
 import type { Module } from "./types";
 import { moduleIdMap } from "./types";
 import { FinalResult } from "@/pages/final-result";
+import { FinalMap } from "@/pages/final-map";
 
 export const titleGroup: Module = {
   id: moduleIdMap.TITLE,
@@ -50,6 +51,7 @@ export const levelEndGroup: Module = {
 export const gameEndGroup: Module = {
   id: moduleIdMap.FINAL,
   pages: [{ id: "final-result", component: FinalResult, title: "Summary", showStars: true }],
+
 };
 
 export const loadingGroup: Module = {

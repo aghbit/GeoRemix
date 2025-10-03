@@ -84,6 +84,8 @@ export default function MapViewer() {
       <MapContainer
         center={[51.505, -0.09]}
         zoom={2}
+        minZoom={2}
+        maxZoom={18}
         zoomControl={false}
         attributionControl={false}
         style={{ height: "100%", width: "100%", cursor: "default" }}>

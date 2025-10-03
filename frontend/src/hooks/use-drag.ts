@@ -7,7 +7,7 @@ type UseDragOptions = {
   position?: Position;
   setPosition?: (pos: Position) => void;
   ref: React.RefObject<HTMLElement | null>;
-  dragHandleRef?: React.RefObject<HTMLElement>;
+  dragHandleRef?: React.RefObject<HTMLElement | null>;
   style?: React.CSSProperties;
   clampToViewport?: boolean;
 };

@@ -46,7 +46,8 @@ function WindowLayout({
     initialPosition,
     position: externalPosition,
     setPosition: externalSetPosition,
-    ref: draggableHeaderRef,
+    ref: windowRef,
+    dragHandleRef: draggableHeaderRef,
     style,
   });
 

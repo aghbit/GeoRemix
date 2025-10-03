@@ -194,6 +194,8 @@ export function LevelMap() {
                 <MapContainer
                   center={resultData.actualPosition}
                   zoom={13}
+                  minZoom={2}
+                  maxZoom={18}
                   style={{ height: "100%", width: "100%" }}
                   zoomControl={false}
                   attributionControl={false}>
